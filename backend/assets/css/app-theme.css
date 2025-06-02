@@ -1,0 +1,60 @@
+html,
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .btn, label, .highcharts-root, .content-header {
+    font-family: "SeroPro" !important;
+}
+
+.main-header, .grid-view table > thead th {
+    font-family: "SeroPro";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.sidebar {
+    font-family: "SeroPro";
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Grid */
+.grid-view table,
+.grid-view table > thead th,
+.grid-view table > thead td {
+    border: none;
+}
+
+.grid-view {
+    padding: 10px 30px;
+    margin: 0 10px 10px 10px;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19) !important;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19) !important;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.grid-view table > tbody tr:hover td,
+.grid-view table > tbody tr:hover + .kv-expand-detail-row td {
+    background-color: #ececec;
+}
+
+.btn-shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.btn-shadow:hover, .btn-shadow:focus, .btn-shadow:active {
+    outline: 0;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.content-wrapper > .content {
+    padding: 0 1rem;
+}
